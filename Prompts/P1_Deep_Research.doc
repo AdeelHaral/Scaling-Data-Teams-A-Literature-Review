@@ -1,0 +1,1578 @@
+# PHASE 1 — COMPREHENSIVE RESEARCH & LITERATURE REVIEW
+
+## ROLE
+
+Act as a multidisciplinary **academic research team** consisting of:
+
+1. A Master's-level academic researcher in Data Science
+2. An organizational-design researcher
+3. A data/AI engineering researcher
+4. An enterprise data strategy consultant
+5. A systematic literature-review researcher
+6. A research fact-checker and source verifier
+
+Your job is to conduct a **deep, independent, evidence-based literature review** for a Master's course in Enterprise Data Science.
+
+Do not behave like a presentation generator.
+
+Do not simply summarize the assigned book.
+
+Do not limit the research to the sources explicitly mentioned by the professor.
+
+Your objective is to discover and synthesize the **broader body of knowledge** surrounding the topic.
+
+---
+
+# 1. STUDENT AND COURSE CONTEXT
+
+I am a Master's student in **Data Science at Berliner Hochschule für Technik (BHT Berlin)**.
+
+The course is:
+
+> **Enterprise Data Science**
+
+Our group assignment is a **Flipped Classroom literature study**.
+
+The assigned topic is:
+
+> **How to set up a data team, how to grow it, and good examples of successful data teams.**
+
+There are three students in our group.
+
+The eventual classroom session will be approximately:
+
+> **90 minutes total — 30 minutes per student**
+
+However:
+
+## THIS IS PHASE 1 ONLY.
+
+Do NOT create the presentation yet.
+
+Do NOT divide the material among the three students yet.
+
+Do NOT create slides yet.
+
+Do NOT optimize the research for presentation length.
+
+First create the **complete research foundation** from which the presentation can later be developed.
+
+---
+
+# 2. PROFESSOR-PROVIDED REFERENCES
+
+The professor has provided the following sources.
+
+## Assigned Book
+
+**Data Teams: How to Build and Manage Successful Data-Focused Teams**
+
+Reference:
+
+https://www.amazon.de/Data-Teams-Management-Successful-Data-Focused/dp/1484262271
+
+First verify:
+
+- exact title
+- exact authors
+- publication year
+- edition
+- publisher
+- ISBN
+- official publisher page if available
+- author information if available
+
+Do not treat Amazon as the academic source.
+
+Use authoritative bibliographic sources wherever possible.
+
+---
+
+## Assigned Article
+
+**Erik Bernhardsson — "The Data Team: A Short Story"**
+
+https://erikbern.com/2021/07/07/the-data-team-a-short-story.html
+
+Treat this as **high-quality practitioner literature**, not peer-reviewed academic evidence.
+
+---
+
+# 3. MOST IMPORTANT INSTRUCTION
+
+## THE ASSIGNED BOOK IS NOT THE BOUNDARY OF THE RESEARCH.
+
+The professor has given the book as a starting point.
+
+The actual research topic is much broader:
+
+> **How organizations build, structure, operate, measure, scale, and evolve effective data teams and data organizations.**
+
+Therefore:
+
+### DO NOT
+
+structure the research as:
+
+> Chapter 1 of the book → Chapter 2 → Chapter 3 → Book summary.
+
+### INSTEAD
+
+use the book as one foundational source and independently research the wider academic and practitioner literature.
+
+Follow:
+
+- citations
+- references
+- related concepts
+- competing theories
+- influential authors
+- newer research
+- empirical studies
+- industry evidence
+- company case studies
+- criticisms
+- alternative organizational models
+
+The final research should go **substantially beyond the assigned book**.
+
+---
+
+# 4. CENTRAL RESEARCH QUESTION
+
+Build the research around this central question:
+
+> **How should organizations design, establish, structure, operate, measure, scale, and continuously evolve data teams so that they create sustainable business value while maintaining technical quality, data quality, governance, organizational alignment, and healthy collaboration?**
+
+---
+
+# 5. SUB-RESEARCH QUESTIONS
+
+Investigate all of the following.
+
+## RQ1 — What is a Data Team?
+
+Define "data team" carefully.
+
+Distinguish between:
+
+- BI team
+- reporting team
+- analytics team
+- data science team
+- data engineering team
+- machine learning team
+- data platform team
+- analytics engineering team
+- data product team
+- AI team
+- broader data organization
+
+Investigate how the concept has evolved.
+
+Do not assume that all organizations define a data team in the same way.
+
+---
+
+# 6. WHY DO ORGANIZATIONS CREATE DATA TEAMS?
+
+Research:
+
+- business decision-making
+- analytics
+- automation
+- forecasting
+- experimentation
+- machine learning
+- operational efficiency
+- customer intelligence
+- risk management
+- data products
+- AI
+- competitive advantage
+
+Investigate whether academic research actually demonstrates measurable business value.
+
+Distinguish:
+
+> perceived value
+
+from:
+
+> demonstrated value.
+
+---
+
+# 7. HOW TO BUILD THE FIRST DATA TEAM
+
+Research what an organization should consider when creating its first formal data team.
+
+Investigate:
+
+- business strategy
+- organizational readiness
+- executive sponsorship
+- mission
+- scope
+- initial use cases
+- team charter
+- organizational reporting line
+- initial roles
+- hiring
+- internal talent
+- technical infrastructure
+- data availability
+- governance
+- security
+- privacy
+- stakeholder management
+- prioritization
+- early wins
+- measurement
+
+Answer:
+
+> **What should an organization do during its first 3, 6, and 12 months?**
+
+Only make recommendations supported by evidence or clearly label them as synthesis.
+
+---
+
+# 8. DATA TEAM ROLES
+
+Research the evolution, responsibilities and boundaries of:
+
+- Data Analyst
+- BI Analyst
+- Data Scientist
+- Data Engineer
+- Analytics Engineer
+- ML Engineer
+- ML Scientist
+- Data Architect
+- Data Product Manager
+- AI Product Manager
+- Data Engineer Manager
+- Data Science Manager
+- Platform Engineer
+- MLOps Engineer
+- Data Governance Specialist
+- Data Steward
+- BI Developer
+- Data/AI Architect
+- Data Platform Engineer
+
+For each important role investigate:
+
+- responsibilities
+- skills
+- outputs
+- interfaces
+- dependencies
+- decision rights
+- when the role becomes necessary
+- centralized vs embedded positioning
+- evolution as the organization grows
+
+Do not assume every company needs every role.
+
+---
+
+# 9. ORGANIZATIONAL STRUCTURES
+
+Research and critically compare:
+
+### Centralized data teams
+
+### Embedded data professionals
+
+### Hub-and-spoke
+
+### Federated organizations
+
+### Hybrid organizations
+
+### Platform + embedded teams
+
+### Domain-oriented teams
+
+### Data product teams
+
+### Data Mesh
+
+For each structure investigate:
+
+- definition
+- advantages
+- disadvantages
+- business alignment
+- technical consistency
+- governance
+- scalability
+- communication
+- career development
+- ownership
+- coordination cost
+- cognitive load
+- speed
+- risks
+- appropriate organizational context
+- empirical evidence
+- company examples
+
+Do not claim that one structure is universally superior.
+
+---
+
+# 10. ORGANIZATIONAL DESIGN THEORY
+
+Connect data-team research with established organizational research.
+
+Investigate:
+
+- Conway's Law
+- Team Topologies
+- cross-functional teams
+- socio-technical systems
+- organizational boundaries
+- organizational autonomy
+- decision rights
+- cognitive load
+- coordination costs
+- psychological safety
+- team effectiveness
+- platform teams
+- enabling teams
+- stream-aligned teams
+- product teams
+
+Explain which theories are relevant to data teams and how strong their evidence is.
+
+---
+
+# 11. TEAM TOPOLOGIES
+
+Research Team Topologies and related organizational frameworks.
+
+Investigate:
+
+- stream-aligned teams
+- platform teams
+- enabling teams
+- complicated-subsystem teams
+- team cognitive load
+- interaction modes
+- organizational architecture
+
+Then ask:
+
+> How applicable are these concepts specifically to data organizations?
+
+Do not automatically assume software-engineering organizational models transfer perfectly to data teams.
+
+Identify limitations.
+
+---
+
+# 12. DATA TEAM MATURITY
+
+Research existing data/analytics/AI maturity models.
+
+Look for models covering:
+
+- people
+- processes
+- technology
+- governance
+- analytics
+- data engineering
+- machine learning
+- organizational capability
+- business value
+
+Compare existing models.
+
+Then synthesize a possible maturity model.
+
+Potential stages may include:
+
+1. No formal data function
+2. Reporting/BI
+3. Centralized analytics
+4. Data engineering + analytics
+5. Data science/ML
+6. Data products/platforms
+7. Federated/domain-oriented data organization
+8. AI/data-driven enterprise
+
+BUT:
+
+Do not force this model if the literature suggests another structure.
+
+Clearly distinguish:
+
+> existing published model
+
+from:
+
+> our synthesis.
+
+---
+
+# 13. HOW DATA TEAMS GROW
+
+Research how data teams evolve as organizations become more complex.
+
+Investigate:
+
+- employee growth
+- business-unit growth
+- data-volume growth
+- data-source growth
+- stakeholder growth
+- technical complexity
+- number of products
+- number of models
+- governance requirements
+- platform complexity
+
+Investigate whether there is reliable evidence for staffing ratios.
+
+For example:
+
+> data scientists per employee
+
+> data engineers per data scientist
+
+> platform engineers per data professional
+
+Do NOT invent ratios.
+
+If no reliable universal ratio exists, explicitly state:
+
+> **There is insufficient evidence for a universal staffing ratio.**
+
+---
+
+# 14. SCALING ORGANIZATIONAL STRUCTURE
+
+Research what happens when a small data team becomes:
+
+- 5 people
+- 10 people
+- 25 people
+- 50 people
+- 100+ people
+
+Do not assume these exact thresholds are universal.
+
+Instead investigate how organizational complexity changes with scale.
+
+Study:
+
+- management layers
+- specialization
+- domain teams
+- platform teams
+- centralized governance
+- federated governance
+- communities of practice
+- career ladders
+- technical leadership
+- architecture
+- communication
+- coordination
+
+---
+
+# 15. DATA TEAM OPERATING MODEL
+
+Research how data teams actually work.
+
+Investigate:
+
+### Intake
+
+How do requests enter the team?
+
+### Prioritization
+
+Who decides what gets built?
+
+### Roadmaps
+
+How should teams plan?
+
+### Stakeholder management
+
+How should data professionals work with:
+
+- product
+- engineering
+- finance
+- marketing
+- operations
+- executives?
+
+### Delivery
+
+Investigate:
+
+> Business problem → data → analysis/model → deployment → adoption → business outcome
+
+### Feedback
+
+How does the team know whether the work created value?
+
+---
+
+# 16. DATA TEAM PRODUCTIVITY
+
+Research what productivity means for data teams.
+
+Investigate:
+
+- individual productivity
+- team productivity
+- engineering productivity
+- analytics productivity
+- ML productivity
+- platform productivity
+
+Look for research on:
+
+- task completion
+- cycle time
+- quality
+- reliability
+- developer experience
+- cognitive load
+- interruptions
+- context switching
+- technical debt
+
+Be critical of simplistic productivity metrics.
+
+---
+
+# 17. MEASURING DATA TEAM SUCCESS
+
+Research how organizations measure success.
+
+### Business metrics
+
+- revenue
+- cost reduction
+- efficiency
+- conversion
+- retention
+- risk
+- customer outcomes
+
+### Data metrics
+
+- freshness
+- accuracy
+- completeness
+- reliability
+- data incidents
+
+### Engineering metrics
+
+- reliability
+- deployment frequency
+- time to production
+- failure rate
+- technical debt
+
+### Analytics metrics
+
+- adoption
+- decision impact
+- usage
+- time-to-insight
+
+### ML metrics
+
+- model performance
+- model reliability
+- production usage
+- monitoring
+- business impact
+
+### Organizational metrics
+
+- stakeholder trust
+- employee retention
+- team health
+- collaboration
+
+Investigate established frameworks where relevant.
+
+Also research:
+
+> **How can metrics create harmful incentives?**
+
+---
+
+# 18. FAILURE MODES
+
+Create an evidence-based taxonomy of why data teams fail.
+
+Investigate:
+
+- unclear mission
+- lack of executive sponsorship
+- unclear ownership
+- poor data quality
+- insufficient infrastructure
+- unrealistic expectations
+- dashboard factory
+- ad-hoc request overload
+- poor stakeholder management
+- centralized bottleneck
+- organizational silos
+- lack of engineering
+- premature ML
+- poor governance
+- lack of product thinking
+- technical debt
+- low adoption
+- models never reaching production
+- inability to demonstrate value
+- excessive specialization
+- insufficient specialization
+- organizational restructuring
+- talent retention
+
+For each:
+
+> Problem → Root Cause → Consequence → Evidence → Mitigation
+
+---
+
+# 19. DATA QUALITY AND GOVERNANCE
+
+Research:
+
+- data ownership
+- data stewardship
+- governance
+- data quality
+- metadata
+- lineage
+- data contracts
+- observability
+- access control
+- privacy
+- security
+- documentation
+- responsible AI
+
+Investigate how organizational structure affects governance.
+
+Compare:
+
+> centralized governance
+
+vs.
+
+> federated governance.
+
+---
+
+# 20. EUROPEAN AND GERMAN CONTEXT
+
+Because this is a Master's program in Berlin, investigate relevant European context where appropriate.
+
+Include authoritative information concerning:
+
+- GDPR
+- EU AI Act
+- European data governance
+- data sharing
+- responsible AI
+- privacy
+- compliance
+
+Do not allow legal/regulatory discussion to dominate the research.
+
+Use authoritative sources.
+
+Do not provide legal advice.
+
+---
+
+# 21. DATA PRODUCTS
+
+Research the concept of:
+
+> Data as a Product
+
+Investigate:
+
+- product thinking
+- data product ownership
+- internal customers
+- discoverability
+- usability
+- reliability
+- quality
+- documentation
+- lifecycle
+- product metrics
+
+Compare data products with traditional analytics outputs.
+
+---
+
+# 22. DATA MESH
+
+Research the Data Mesh concept deeply.
+
+Investigate:
+
+- domain ownership
+- data as a product
+- self-service infrastructure
+- federated computational governance
+
+Use foundational literature, especially work associated with:
+
+**Zhamak Dehghani**
+
+But do NOT treat Data Mesh as established fact.
+
+Research:
+
+- academic support
+- practitioner adoption
+- empirical evidence
+- criticisms
+- implementation challenges
+- organizational prerequisites
+- platform requirements
+- governance problems
+- cognitive load
+- failure cases
+
+Answer:
+
+> **When does Data Mesh make sense, and when might it create unnecessary complexity?**
+
+---
+
+# 23. DATA PLATFORMS AND PLATFORM TEAMS
+
+Research:
+
+- data platforms
+- self-service infrastructure
+- platform engineering
+- internal developer platforms
+- data platform teams
+- platform-as-a-product
+
+Investigate:
+
+> When should a company build a dedicated data platform team?
+
+and:
+
+> When does a platform become a bottleneck rather than an accelerator?
+
+---
+
+# 24. ANALYTICS ENGINEERING
+
+Investigate the emergence of:
+
+> Analytics Engineering
+
+Explain:
+
+- why the role emerged
+- how it differs from data engineering
+- how it differs from data analysis
+- how it changes organizational design
+- how it affects data-team scaling
+
+Use evidence from credible sources.
+
+---
+
+# 25. MACHINE LEARNING ORGANIZATIONS
+
+Investigate how ML changes the data-team structure.
+
+Research:
+
+- ML engineering
+- MLOps
+- ML platforms
+- model lifecycle
+- experimentation
+- deployment
+- monitoring
+- model governance
+
+Compare:
+
+> analytics-focused teams
+
+with:
+
+> ML-focused teams.
+
+---
+
+# 26. AI AND GENERATIVE AI TEAMS
+
+Research recent developments involving:
+
+- generative AI
+- LLM teams
+- AI engineering
+- AI product teams
+- LLMOps
+- AI agents
+- AI platform teams
+- AI governance
+- human-AI collaboration
+
+Investigate whether AI changes:
+
+- roles
+- team size
+- organizational structure
+- productivity
+- skills
+- governance
+- hiring
+
+Clearly distinguish:
+
+### Established evidence
+
+### Emerging evidence
+
+### Speculation
+
+Do not make unsupported future predictions.
+
+---
+
+# 27. REAL-WORLD CASE STUDIES
+
+Find **6–10 well-documented organizations**.
+
+Possible candidates include:
+
+- Netflix
+- Airbnb
+- Uber
+- Spotify
+- LinkedIn
+- Google
+- Amazon
+- Microsoft
+- Booking.com
+- Zalando
+- Shopify
+- Stripe
+- Etsy
+- Walmart
+- DoorDash
+- Lyft
+
+These are NOT mandatory.
+
+Choose based on evidence quality.
+
+Prefer organizations with primary documentation.
+
+For each company document:
+
+1. Company context
+2. Original problem
+3. Initial data organization
+4. Team structure
+5. Roles
+6. Reporting structure where documented
+7. Technology/platform
+8. Governance
+9. Evolution
+10. Scaling challenges
+11. Changes
+12. Outcomes
+13. Lessons
+14. Evidence
+
+Clearly separate:
+
+**FACT**
+
+**INTERPRETATION**
+
+**INFERENCE**
+
+Never invent undocumented details.
+
+---
+
+# 28. SUCCESSFUL CASES VS FAILURE CASES
+
+Identify:
+
+### Successful examples
+
+Where credible evidence shows effective data-team evolution.
+
+### Difficult/problematic examples
+
+Where credible evidence documents organizational or technical problems.
+
+Do not label a company a "failure" without evidence.
+
+Instead use terminology such as:
+
+> documented challenge
+
+> organizational restructuring
+
+> unsuccessful initiative
+
+> reported limitation
+
+> evidence of failure
+
+when appropriate.
+
+---
+
+# 29. LITERATURE DISCOVERY STRATEGY
+
+Do not search only for:
+
+> "how to build a data team."
+
+Search across adjacent academic disciplines.
+
+Use combinations of terms such as:
+
+### Data organization
+
+"data team"
+
+"data science team"
+
+"data organization"
+
+"analytics organization"
+
+"data science organizational structure"
+
+### Organizational design
+
+"team structure"
+
+"organizational design"
+
+"cross-functional teams"
+
+"team effectiveness"
+
+"organizational scaling"
+
+### Technical organizations
+
+"machine learning teams"
+
+"ML engineering organization"
+
+"MLOps organization"
+
+"data platform team"
+
+"analytics engineering"
+
+### Data products
+
+"data products"
+
+"data as a product"
+
+"data mesh"
+
+"domain data ownership"
+
+### Business
+
+"data-driven organization"
+
+"analytics maturity"
+
+"data strategy"
+
+"analytics capability"
+
+### AI
+
+"AI organization"
+
+"AI teams"
+
+"AI engineering teams"
+
+"generative AI organizational design"
+
+Expand these searches based on what you discover.
+
+---
+
+# 30. LITERATURE SNOWBALLING
+
+Use both:
+
+### Backward citation searching
+
+Follow important references from influential papers/books.
+
+### Forward citation searching
+
+Identify newer research that cites important foundational work.
+
+### Related-work discovery
+
+Look for conceptually related research even when terminology differs.
+
+The goal is to discover the broader research field rather than only keyword matches.
+
+---
+
+# 31. SOURCE HIERARCHY
+
+Classify evidence.
+
+## Tier 1 — Strongest
+
+- peer-reviewed empirical research
+- systematic reviews
+- academic books from reputable publishers
+- official regulations
+- authoritative government publications
+
+## Tier 2 — Strong
+
+- high-quality conference research
+- institutional research
+- transparent industry studies
+- primary company engineering publications
+
+## Tier 3 — Practitioner
+
+- respected books
+- expert practitioner articles
+- engineering blogs
+- conference talks
+
+## Tier 4 — Secondary
+
+- generic blogs
+- summaries
+- listicles
+- unattributed material
+
+Use Tier 1 evidence whenever available.
+
+Use lower tiers mainly for practitioner context and real-world examples.
+
+---
+
+# 32. SOURCE VERIFICATION
+
+For EVERY important source:
+
+Verify:
+
+- author
+- title
+- year
+- publisher/journal
+- DOI where applicable
+- URL
+- publication type
+- whether peer reviewed
+- whether the source actually supports the claim
+
+Never fabricate citations.
+
+Never fabricate DOI numbers.
+
+Never fabricate statistics.
+
+Never fabricate quotations.
+
+If a source cannot be verified, mark:
+
+> **SOURCE VERIFICATION REQUIRED**
+
+and do not use it as strong evidence.
+
+---
+
+# 33. CLAIM-TO-SOURCE MATRIX
+
+Create a comprehensive table:
+
+| Claim | Source | Source Type | Year | Evidence Tier | Direct Support? | Confidence | Notes |
+|---|---|---|---|---|---|---|---|
+
+Include:
+
+- quantitative claims
+- company claims
+- organizational recommendations
+- important theoretical claims
+- claims about effectiveness
+
+---
+
+# 34. EVIDENCE MATRIX
+
+Create:
+
+| Research Question | Finding | Sources | Evidence Strength | Agreement/Conflict | Interpretation |
+|---|---|---|---|---|---|
+
+This should allow us later to see exactly what the literature says.
+
+---
+
+# 35. LITERATURE MAP
+
+Create a conceptual map of the research landscape.
+
+Organize literature into:
+
+1. Data science work
+2. Organizational design
+3. Data engineering
+4. Analytics engineering
+5. ML engineering
+6. Data platforms
+7. Data products
+8. Data governance
+9. Data Mesh
+10. Team Topologies
+11. Data-driven organizations
+12. AI organizations
+13. Team effectiveness
+14. Enterprise transformation
+
+Explain how these research streams connect.
+
+---
+
+# 36. CONFLICTING EVIDENCE
+
+Actively search for disagreement.
+
+Do not only collect sources that support the same conclusion.
+
+For important debates provide:
+
+### Position A
+
+Evidence.
+
+### Position B
+
+Evidence.
+
+### Why the findings differ
+
+### Context
+
+### Balanced conclusion
+
+This section is especially important for Master's-level academic work.
+
+---
+
+# 37. WHAT WE ACTUALLY KNOW VS WHAT WE ASSUME
+
+Create a dedicated section:
+
+# Evidence vs Industry Conventional Wisdom
+
+Identify common statements such as:
+
+> "Every company needs a data platform team."
+
+> "Data Mesh is the future."
+
+> "Embedded data scientists are always better."
+
+> "Centralized teams cannot scale."
+
+> "Every company needs a Chief Data Officer."
+
+> "More data scientists automatically create more value."
+
+> "Data teams should be product teams."
+
+For each determine:
+
+- evidence
+- counterevidence
+- context
+- confidence
+
+This will make the research intellectually stronger.
+
+---
+
+# 38. SYNTHESIS
+
+After completing the research, develop an evidence-based synthesis.
+
+Answer:
+
+> **If an organization asked us today to build a data team, what should we recommend?**
+
+Build a framework considering:
+
+1. Business strategy
+2. Organizational maturity
+3. Data maturity
+4. Team mission
+5. Organizational structure
+6. Roles
+7. Technology
+8. Governance
+9. Operating model
+10. Measurement
+11. Scaling
+12. Organizational redesign
+
+Every recommendation must be labeled:
+
+**Evidence-backed**
+
+or
+
+**Literature synthesis**
+
+or
+
+**Reasoned interpretation**
+
+---
+
+# 39. RESEARCH LIMITATIONS
+
+Explicitly discuss:
+
+- lack of empirical research
+- survivorship bias in company case studies
+- companies selectively publishing success stories
+- rapidly changing technology
+- inconsistent terminology
+- differences between industries
+- differences between company sizes
+- lack of universal staffing ratios
+- practitioner evidence limitations
+
+This section is mandatory.
+
+---
+
+# 40. FINAL DOCUMENT STRUCTURE
+
+Produce a professional Word-ready research document with the following structure:
+
+# Building, Growing and Evolving Data Teams
+
+## A Comprehensive Literature Review for Enterprise Data Science
+
+### 1. Executive Summary
+
+### 2. Research Scope
+
+### 3. Research Questions
+
+### 4. Literature Search Methodology
+
+### 5. Source Evaluation Method
+
+### 6. Literature Landscape
+
+### 7. What Is a Data Team?
+
+### 8. Evolution of Data Organizations
+
+### 9. Why Organizations Build Data Teams
+
+### 10. Building the First Data Team
+
+### 11. Data Team Roles
+
+### 12. Organizational Structures
+
+### 13. Organizational Design Theory
+
+### 14. Team Topologies
+
+### 15. Data Team Maturity
+
+### 16. Scaling Data Teams
+
+### 17. Data Team Operating Models
+
+### 18. Data Team Productivity
+
+### 19. Measuring Data Team Success
+
+### 20. Data Quality and Governance
+
+### 21. Data Products
+
+### 22. Data Mesh
+
+### 23. Data Platforms and Platform Teams
+
+### 24. Analytics Engineering
+
+### 25. Machine Learning Organizations
+
+### 26. AI and Generative AI Teams
+
+### 27. Data Team Failure Modes
+
+### 28. Real-World Case Studies
+
+### 29. Comparative Case Analysis
+
+### 30. Evidence vs Conventional Wisdom
+
+### 31. Conflicting Evidence and Academic Debate
+
+### 32. Evidence-Based Synthesis
+
+### 33. Future Directions
+
+### 34. Research Limitations
+
+### 35. Conclusion
+
+### 36. References
+
+### Appendix A — Literature Map
+
+### Appendix B — Evidence Matrix
+
+### Appendix C — Claim-to-Source Matrix
+
+### Appendix D — Company Case Study Evidence
+
+---
+
+# 41. APA 7 REFERENCES
+
+Use APA 7th edition.
+
+For each source provide, where available:
+
+- author(s)
+- year
+- title
+- journal/book/conference
+- volume/issue/pages
+- publisher
+- DOI
+- URL
+
+Do not invent missing bibliographic information.
+
+---
+
+# 42. TARGET SOURCE MIX
+
+Aim for a strong and diverse evidence base.
+
+Approximately:
+
+### Academic
+
+20–30 strong peer-reviewed/academic sources
+
+### Industry/institutional
+
+10–15 strong sources
+
+### Practitioner
+
+10–20 high-quality sources
+
+### Company primary sources
+
+10–20 relevant sources
+
+These are targets, NOT quotas.
+
+Do not add weak sources simply to reach a number.
+
+A smaller number of excellent sources is preferable to a large bibliography of poor sources.
+
+---
+
+# 43. DATE STRATEGY
+
+Use both:
+
+### Foundational literature
+
+Important older theories and influential works.
+
+AND
+
+### Recent literature
+
+Prioritize relevant developments from approximately **2018 onward**, with particular attention to **2022–2026** for:
+
+- AI
+- GenAI
+- data platforms
+- organizational changes
+- Data Mesh
+- ML engineering
+- modern data teams
+
+Do not exclude older foundational research merely because it is old.
+
+Use the most recent credible evidence available.
+
+---
+
+# 44. CRITICAL QUALITY CONTROL
+
+Before finalizing, perform a complete research audit.
+
+Ask:
+
+### Coverage
+
+Have we gone beyond the assigned book?
+
+Have we covered academic, technical, organizational, business, and practitioner literature?
+
+### Evidence
+
+Does each important claim have appropriate evidence?
+
+### Balance
+
+Have contradictory viewpoints been included?
+
+### Recency
+
+Have recent developments been considered?
+
+### Academic quality
+
+Are peer-reviewed sources sufficiently represented?
+
+### Source integrity
+
+Does every citation actually exist?
+
+Does every source support the claim?
+
+### Company evidence
+
+Are company claims based on primary or credible sources?
+
+### Synthesis
+
+Are conclusions clearly separated from source findings?
+
+### Limitations
+
+Have uncertainties and evidence gaps been acknowledged?
+
+---
+
+# 45. ABSOLUTE PROHIBITIONS
+
+NEVER:
+
+- fabricate sources
+- fabricate statistics
+- fabricate quotations
+- fabricate company information
+- invent DOI numbers
+- pretend a blog is peer-reviewed
+- present opinion as empirical evidence
+- claim universal organizational rules without evidence
+- cite sources that do not support the claim
+- hide contradictory evidence
+- treat Data Mesh as universally superior
+- treat AI trends as established facts
+- make unsupported staffing recommendations
+
+---
+
+# 46. FINAL OUTPUT REQUIREMENT
+
+The final output must be a **deep research dossier**, not a presentation.
+
+It should be sufficiently comprehensive that a Master's student could use it as the **primary research foundation for a later 90-minute university presentation**.
+
+The document should allow a later researcher to answer:
+
+> What is a data team?
+
+> Why do organizations need one?
+
+> How do you build one?
+
+> Which roles do you need?
+
+> How should the team be organized?
+
+> When should the structure change?
+
+> How do data teams scale?
+
+> How should they measure success?
+
+> Why do they fail?
+
+> How do data governance and data products affect organizational design?
+
+> When does Data Mesh make sense?
+
+> How do ML and AI change the organization?
+
+> What have real companies actually done?
+
+> What does academic research say?
+
+> What does industry experience say?
+
+> Where do researchers and practitioners disagree?
+
+> What do we actually know with confidence?
+
+> What remains uncertain?
+
+Most importantly:
+
+## DO NOT WRITE A BOOK SUMMARY.
+
+Produce an **independent, comprehensive literature review of the entire topic**, with the assigned book treated as **one important reference among many**.
+
+The ultimate objective is to understand:
+
+> **How organizations can build, structure, grow, and continuously evolve effective data teams—and what the evidence actually tells us about when different approaches succeed or fail.**

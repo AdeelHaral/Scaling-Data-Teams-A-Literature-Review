@@ -1,0 +1,706 @@
+You are an experienced university lecturer and academic researcher in Data Science, Data Engineering, and Organizational Design.
+
+I am preparing a **90-minute flipped-classroom session for an MSc Data Science course**.
+
+The assignment topic is:
+
+**“Literature Study: How to set up a data team, how to grow, good examples.”**
+
+There are **3 students**, and the professor has explicitly said that **each student has approximately 30 minutes**.
+
+I have uploaded a research dossier that was previously created from the assigned literature. Use it as the **research foundation**, but do NOT blindly trust or reproduce it. The goal is to transform the research into a **clear, academically credible, teachable 90-minute university session**.
+
+The assigned core literature is:
+
+1. Anderson, J. (2020), *Data Teams: A Unified Management Model for Successful Data-Focused Teams*, Apress.
+2. Bernhardsson, E. (2021), *Building a data team at a mid-stage startup: a short story.*
+
+The professor is likely evaluating not how much information we collected, but whether we demonstrate:
+- understanding of the literature,
+- critical thinking,
+- ability to synthesize different sources,
+- understanding of organizational trade-offs,
+- evidence-based reasoning,
+- connection between theory and real-world examples,
+- and ability to teach the topic clearly to MSc students.
+
+## VERY IMPORTANT: THE MAIN PROBLEM
+
+The existing dossier is too broad and too dense.
+
+DO NOT turn it into a 100-page presentation.
+
+DO NOT attempt to cover everything about data teams.
+
+DO NOT create a role encyclopedia.
+
+DO NOT create a history of data engineering/data science.
+
+DO NOT fill slides with literature summaries.
+
+Instead, build a **single coherent argument** around this practical question:
+
+> **“If you were asked to build a data team in a growing company today, how would you decide what team to build, how would you structure it, and how would you evolve it as the company grows?”**
+
+The entire session should answer that question using literature and evidence.
+
+---
+
+# 1. TARGET AUDIENCE
+
+The audience is MSc Data Science students.
+
+Assume that students:
+- understand Python, SQL, data science and basic ML concepts;
+- understand what data engineers/data scientists generally do;
+- have limited formal knowledge of organizational design and team structures;
+- may find abstract organizational theory difficult if it is not connected to a concrete example.
+
+Therefore:
+
+**Explain organizational concepts through realistic data-team situations.**
+
+Do not oversimplify the academic content, but do not make the session unnecessarily theoretical.
+
+Every major concept should answer:
+
+> “Why should a future data professional care about this?”
+
+---
+
+# 2. THE CENTRAL TEACHING STORY
+
+Structure the entire 90-minute session around one evolving company scenario.
+
+For example:
+
+A company is growing rapidly and has:
+- increasing amounts of customer and operational data,
+- analysts producing reports,
+- engineers maintaining pipelines,
+- managers asking for dashboards,
+- product teams wanting ML,
+- increasing data-quality problems.
+
+The company asks:
+
+> “Should we create a data team? Who should we hire first? Should the team be centralized or embedded? How should it change when the company grows?”
+
+Use this scenario repeatedly.
+
+The students should feel that they are **making organizational decisions**, not listening to a literature lecture.
+
+---
+
+# 3. DIVIDE THE 90 MINUTES INTO 3 CLEAR PARTS
+
+Create three approximately 30-minute sections.
+
+## STUDENT 1 — BUILDING THE FIRST DATA TEAM
+
+Core question:
+
+> **“Why create a data team, and what should the first team look like?”**
+
+Cover:
+
+1. What is a “data team”?
+   - Explain why the term has no single universally accepted definition.
+   - Distinguish the major types of data work only as much as necessary.
+
+2. Why organizations invest in data capabilities.
+   - Business decisions
+   - operational analytics
+   - experimentation
+   - data products / ML
+   - infrastructure
+
+3. When does a company actually need a dedicated data team?
+   - Do not assume every company needs one.
+   - Discuss organizational readiness and business problems.
+
+4. What capabilities are needed in an initial team?
+   - analytics
+   - data engineering
+   - data science where justified
+   - communication/business understanding
+   - production/operational capability
+
+5. Anderson (2020)
+   - What does Anderson propose?
+   - What is useful?
+   - What are the limitations of using a practitioner book as evidence?
+
+6. Bernhardsson (2021)
+   - What does his startup story suggest?
+   - What is based on experience/opinion rather than empirical research?
+
+7. End with a decision:
+   
+   > “If this company has only 5 employees doing data-related work, what would you prioritize?”
+
+Include a short audience interaction or mini-decision.
+
+---
+
+# STUDENT 2 — STRUCTURE AND GROWTH
+
+Core question:
+
+> **“Once the team exists, how should it be organized and how should it evolve?”**
+
+This should be the strongest organizational-design section.
+
+Cover:
+
+1. Centralized data team
+
+2. Embedded/decentralized data professionals
+
+3. Hybrid/federated structures
+
+For each structure explain:
+
+- what it looks like;
+- advantages;
+- disadvantages;
+- coordination costs;
+- proximity to business;
+- technical consistency;
+- governance;
+- scaling implications.
+
+Do NOT claim that one structure is universally best.
+
+Instead emphasize:
+
+> **The appropriate structure depends on context.**
+
+Then discuss growth:
+
+- What changes when the organization becomes larger?
+- When does specialization become useful?
+- When do platform/data engineering capabilities become necessary?
+- When does coordination become a problem?
+- Why might an organization move from centralized → embedded/hybrid or vice versa?
+
+Discuss relevant concepts from the literature only where they help answer these questions.
+
+You may mention:
+- Conway's Law,
+- Team Topologies,
+- Data Mesh,
+- platform teams,
+
+BUT:
+
+**Do not turn these into separate theory lectures.**
+
+Only use them if they directly help explain how data organizations evolve.
+
+Explicitly distinguish:
+
+**Evidence**
+vs.
+**practitioner framework**
+vs.
+**our interpretation/inference**.
+
+End with a practical decision:
+
+> “Our company has now grown from 30 to 300 employees. Would you keep the original structure?”
+
+Ask students to justify their answer.
+
+---
+
+# STUDENT 3 — REAL EXAMPLES, FAILURE MODES, AND CRITICAL EVALUATION
+
+Core question:
+
+> **“What can real organizations teach us, and what does the literature actually allow us to conclude?”**
+
+Use only **2–3 strong real-world examples**.
+
+Do NOT create a long list of companies.
+
+For every company example use the same framework:
+
+**Context → Problem → Team/organizational choice → Why that choice made sense → Outcome/lesson → Limitation**
+
+Prefer examples supported by:
+- primary company engineering/organizational publications,
+- the assigned literature,
+- reputable research,
+- high-quality practitioner sources.
+
+Avoid examples that are merely famous because they are famous.
+
+Then discuss common failure modes:
+
+- unclear business ownership;
+- building technology before defining the problem;
+- weak data foundations;
+- unclear responsibilities;
+- excessive centralization;
+- excessive decentralization;
+- data science disconnected from production;
+- measuring team activity rather than business outcomes;
+- hiring based on fashionable roles instead of actual needs.
+
+Then critically evaluate the evidence.
+
+Explicitly answer:
+
+### What does the literature support reasonably well?
+
+### What remains uncertain?
+
+### What claims should we NOT make?
+
+Examples:
+
+Do NOT present these as established facts unless strong evidence exists:
+
+- “Every company should have a data team.”
+- “The best data team structure is hybrid.”
+- “You need X data engineers per data scientist.”
+- “Data Mesh is the future for every company.”
+- “Most data projects fail.”
+- “AI will eliminate data teams.”
+- arbitrary productivity percentages;
+- unsupported 85%/87% failure statistics.
+
+If evidence is weak, say:
+
+> **“The literature does not currently allow us to conclude this confidently.”**
+
+That critical attitude should be visible in the presentation.
+
+---
+
+# 4. MAKE IT A FLIPPED-CLASSROOM SESSION
+
+This is NOT just a 90-minute lecture.
+
+Design the session so students participate.
+
+Include approximately:
+
+- 55–65 minutes of explanation/presentation;
+- 20–25 minutes of interactive activities/discussion;
+- 5–10 minutes of synthesis/questions.
+
+Design **2–3 short activities**, not 10 tiny activities.
+
+At least one activity should involve students designing a data team.
+
+For example:
+
+### Case exercise
+
+Give students:
+
+> A 200-person company has 4 analysts, 1 data scientist, 3 software engineers handling data pipelines part-time, poor data quality, increasing ML requests, and no clear ownership of data.
+
+Ask:
+
+1. Should they create a dedicated data team?
+2. Which capabilities should they prioritize?
+3. Which roles should they hire first?
+4. Centralized, embedded, or hybrid?
+5. What would you change after the company doubles in size?
+
+Then provide a reasoned debrief based on the literature.
+
+The answer should NOT be presented as “the one correct answer.”
+
+Instead show:
+
+> “Here is a defensible answer, and here are the assumptions behind it.”
+
+---
+
+# 5. EVIDENCE DISCIPLINE
+
+This is extremely important.
+
+Use the uploaded research dossier as the foundation, but verify important claims where possible against original sources.
+
+For every important claim classify it as:
+
+**FACT** — directly supported by a source.
+
+**INTERPRETATION** — synthesis of multiple sources.
+
+**INFERENCE** — reasonable conclusion derived from evidence, but not directly tested.
+
+Also assign evidence strength:
+
+- **Strong**
+- **Moderate**
+- **Weak**
+- **Insufficient**
+
+Use the following hierarchy:
+
+**T1**
+Peer-reviewed empirical research, systematic reviews, academic books, official/legal sources.
+
+**T2**
+High-quality conference research, institutional research, transparent industry studies, primary company engineering publications.
+
+**T3**
+High-quality practitioner books, articles, talks, expert experience.
+
+**T4**
+Generic blogs, summaries, unsourced websites.
+
+T4 may help explain a concept but must NOT be used as evidence for major claims.
+
+---
+
+# 6. CRITICAL ACADEMIC POINT
+
+One of the most important conclusions should be:
+
+> **There is much literature about how data teams are organized, but considerably less rigorous evidence directly comparing organizational structures and demonstrating which structure produces better business outcomes.**
+
+Do not hide this limitation.
+
+Make it part of the intellectual value of the presentation.
+
+The goal is NOT to pretend the literature knows more than it actually does.
+
+---
+
+# 7. SLIDE DESIGN
+
+Design approximately **24–30 slides total for the entire 90-minute session**, NOT 24–30 slides per student.
+
+That gives roughly 8–10 slides per student.
+
+Some slides should be discussion/activity slides.
+
+Use:
+
+- one central message per slide;
+- diagrams;
+- simple organizational structures;
+- comparison tables;
+- decision frameworks;
+- realistic company scenarios.
+
+Avoid paragraphs.
+
+Avoid putting the literature review into the slides.
+
+The detailed explanation belongs in speaker notes.
+
+---
+
+# 8. FOR EVERY SLIDE PROVIDE
+
+For each slide give:
+
+### Slide number
+
+### Slide title
+
+### Purpose
+Why this slide exists.
+
+### On-slide content
+The actual content that should appear on the slide.
+
+Keep it concise.
+
+### Visual recommendation
+Specify whether the slide should use:
+- diagram,
+- organizational chart,
+- comparison table,
+- decision tree,
+- timeline,
+- case scenario,
+- simple graphic,
+- or minimal text.
+
+### Speaker notes
+Give the presenter enough explanation to speak for approximately 2–4 minutes where appropriate.
+
+The notes should explain:
+- the concept;
+- the evidence;
+- why it matters;
+- relevant caveats;
+- transition to the next slide.
+
+### Evidence
+List the source(s) supporting the slide.
+
+### Evidence classification
+FACT / INTERPRETATION / INFERENCE
+
+### Evidence strength
+Strong / Moderate / Weak / Insufficient
+
+### Teaching question
+Where appropriate, give a question to ask the class.
+
+---
+
+# 9. DO NOT OVERLOAD THE AUDIENCE
+
+The following should NOT become major sections:
+
+- complete history of data teams;
+- every possible data role;
+- every modern data architecture;
+- detailed Data Mesh theory;
+- detailed Team Topologies theory;
+- detailed MLOps;
+- detailed GenAI;
+- GDPR;
+- exhaustive governance frameworks;
+- exhaustive staffing models;
+- dozens of company examples.
+
+If a topic is interesting but not essential, put it into a final:
+
+**“Further reading / beyond today's session”**
+
+section.
+
+---
+
+# 10. GENAI
+
+Because this is a contemporary MSc Data Science course, GenAI may be mentioned briefly.
+
+But do NOT claim that GenAI is eliminating data teams or dramatically reducing staffing unless strong evidence supports it.
+
+If evidence is insufficient, explicitly say so.
+
+A possible final discussion question is:
+
+> “Will AI change the composition of data teams more than it changes their organizational purpose?”
+
+But this should be treated as a discussion question, not an established conclusion.
+
+---
+
+# 11. REAL COMPANY EXAMPLES
+
+Select only 2–3.
+
+For each example, verify the source quality.
+
+Do NOT invent:
+- team sizes;
+- organizational structures;
+- outcomes;
+- productivity improvements;
+- timelines;
+- business results.
+
+If a company does not publicly disclose something, say:
+
+> “Not publicly documented.”
+
+Do not fill the gap with assumptions.
+
+---
+
+# 12. ASSIGNED SOURCES
+
+Anderson (2020) and Bernhardsson (2021) MUST be visibly integrated.
+
+Do not merely put them in the bibliography.
+
+For each source answer:
+
+- What does this source contribute?
+- What assumptions does it make?
+- What kind of evidence is it?
+- What can we reasonably learn from it?
+- What should we NOT generalize from it?
+
+This demonstrates that we actually studied the assigned literature rather than using random internet sources.
+
+---
+
+# 13. FINAL SYNTHESIS
+
+End with a strong framework students can remember.
+
+Something similar to:
+
+### Start with the business problem
+↓
+### Identify the required data capability
+↓
+### Build the smallest team that can deliver it reliably
+↓
+### Clarify ownership and interfaces
+↓
+### Choose centralized / embedded / hybrid based on context
+↓
+### Add specialization as complexity increases
+↓
+### Reorganize when coordination costs become significant
+↓
+### Measure outcomes, reliability, adoption and business value
+
+But do NOT simply accept this framework.
+
+Validate each step against the literature and clearly mark which parts are synthesis/inference.
+
+---
+
+# 14. FINAL “WHAT WE KNOW / WHAT WE DON'T KNOW” SLIDE
+
+Create a final two-column slide:
+
+| Literature supports reasonably well | Evidence remains limited |
+|---|---|
+| Data work is heterogeneous | Universal team structure |
+| Business alignment matters | Universal staffing ratios |
+| Production data work requires engineering capability | Best reporting line |
+| Centralization and decentralization have trade-offs | Structure → business performance causality |
+| Organizations evolve as complexity increases | One universally optimal growth path |
+
+Adapt the table to the actual evidence.
+
+This slide is very important because it demonstrates academic maturity.
+
+---
+
+# 15. REFERENCES
+
+Provide a final bibliography.
+
+For each important source provide:
+
+- Author
+- Year
+- Title
+- Publication/book/conference
+- DOI or stable URL where available
+- Evidence tier
+- Why the source was used
+
+Prioritize original sources.
+
+Do not cite a secondary article when the original study is available.
+
+---
+
+# 16. SPEAKER ALLOCATION
+
+At the end, provide a clear division:
+
+## Student 1 — approximately 30 minutes
+Topic:
+Building the first data team
+
+Slides:
+X–X
+
+Main learning objectives:
+...
+
+## Student 2 — approximately 30 minutes
+Topic:
+Structuring and growing the team
+
+Slides:
+X–X
+
+Main learning objectives:
+...
+
+## Student 3 — approximately 30 minutes
+Topic:
+Real examples, failure modes, and critical evaluation
+
+Slides:
+X–X
+
+Main learning objectives:
+...
+
+The three sections must feel like **one presentation**, not three independent presentations.
+
+Create explicit transition sentences between students.
+
+---
+
+# 17. WHAT I WANT FROM YOU
+
+Do NOT immediately produce a huge report.
+
+First produce:
+
+### A. A one-page presentation concept
+Explain the central argument and teaching story.
+
+### B. The 3-part structure
+Show exactly what Student 1, Student 2 and Student 3 will teach.
+
+### C. The proposed 24–30 slide architecture
+Give slide titles and purpose only.
+
+### D. Evidence map
+For each major claim, show:
+Claim → Source → Evidence tier → Evidence strength → FACT/INTERPRETATION/INFERENCE
+
+### E. Recommended 2–3 company cases
+Explain why each case is appropriate and what evidence supports it.
+
+### F. Interactive activities
+Give 2–3 activities suitable for MSc students.
+
+### G. Only AFTER these are approved, produce the detailed slide content and speaker notes.
+
+If you cannot ask for approval because you are expected to produce the complete output in one pass, then produce the complete presentation after the architecture.
+
+---
+
+# 18. QUALITY CONTROL — VERY IMPORTANT
+
+Before finalizing, perform an internal academic quality check.
+
+Ask yourself:
+
+1. Are we answering the actual assignment?
+2. Is the material appropriate for MSc students?
+3. Can three students realistically present it in 90 minutes?
+4. Is there a clear story?
+5. Are Anderson and Bernhardsson genuinely integrated?
+6. Are major claims evidence-based?
+7. Have we separated evidence from interpretation?
+8. Have we identified evidence gaps?
+9. Are the company examples actually documented?
+10. Have we avoided unsupported statistics?
+11. Have we avoided pretending that one organizational structure is universally best?
+12. Is there enough critical thinking for a university literature study?
+13. Are there meaningful student activities?
+14. Can students leave the session with a practical mental model?
+15. Does this look like a **high-quality MSc literature study**, rather than an AI-generated generic presentation?
+
+If any answer is “no”, revise the presentation before delivering it.
+
+## MOST IMPORTANT INSTRUCTION
+
+**Depth is not the same as volume.**
+
+I would rather have:
+
+**25 excellent slides + strong speaker notes + 3 good activities + 10 carefully selected sources + explicit evidence limitations**
+
+than:
+
+**100 slides containing every possible fact about data teams.**
+
+Make the final result **academically defensible, realistic, teachable, critical, and visually understandable.**

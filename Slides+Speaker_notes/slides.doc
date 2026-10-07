@@ -1,0 +1,848 @@
+MSc Presentation
+Building Data Teams: From First Hire to Scalable Data Organization
+90 minutes · 3 students · ~30 minutes each
+Central research question
+If you were asked to build a data team in a growing company today, how would you decide what team to build, how to structure it, and how to evolve it?
+
+Central argument
+There is no universally optimal data-team structure. Good organizational design starts with the business problem, identifies the capabilities required, and then chooses an organizational arrangement that minimizes the most important coordination and ownership problems.
+
+PART 0 — OPENING
+Slide 1 — Building a Data Team
+On slide
+BUILDING DATA TEAMS
+From First Hire → Scalable Data Organization
+Small team → Growing organization → Multiple domains
+Research question
+How should a company decide what data team to build — and how should that team evolve?
+
+Visual
+A simple progression:
+Business problem → Capabilities → Structure → Coordination → Growth
+Speaker notes
+Today we are not trying to memorize different data-team structures.
+Instead, we want to answer a practical organizational question:
+Suppose a growing company asks us tomorrow to build its data organization. What would we actually do?
+We will approach the problem from three perspectives.
+Student 1 will look at building the first team.
+Student 2 will look at structuring and scaling the team.
+Student 3 will look at what real organizations teach us and what the evidence actually allows us to conclude.
+A key theme throughout the presentation is that organizational design is contextual.
+Slide 2 — The Northstar Problem
+On slide
+Meet Northstar
+200-person digital company
+- 4 analysts
+- 1 data scientist
+- 3 software engineers doing pipelines part-time
+- Poor data quality
+- Increasing ML requests
+- No clear data ownership
+The management question
+What should Northstar do next?
+
+Visual
+Messy diagram:
+Business teams → Analysts
+Engineering → pipelines
+Data Scientist → ML requests
+Everyone → conflicting metrics
+Speaker notes
+We will use one fictional company throughout the presentation.
+This prevents the session from becoming a collection of disconnected theories.
+Northstar is deliberately realistic.
+It has enough data demand to justify organizational attention, but it has not yet developed a mature data organization.
+Our question is not:
+“What is the correct structure?”
+
+Instead:
+What problem should Northstar solve first?
+
+And later, when Northstar grows, we will ask whether the same structure still makes sense.
+Slide 3 — What Does the Literature Actually Know?
+On slide
+We know more about…	We know less about…
+Data work is heterogeneous	Which structure is universally best
+Collaboration creates organizational problems	Which structure maximizes business outcomes
+Data quality and ownership matter	Universal staffing ratios
+Boundaries create coordination costs	A deterministic “maturity path”
+
+
+Bottom line
+Strong evidence ≠ strong evidence for one organizational structure
+Speaker notes
+This is probably the most important academic slide.
+The literature gives us reasonably strong evidence about what makes data work difficult.
+For example, data science and data engineering involve different activities, dependencies, and collaboration patterns.
+But the evidence becomes much weaker when we ask:
+Does a centralized data team outperform an embedded one?
+
+The literature review found essentially no peer-reviewed comparative study that adequately controls for context and compares business outcomes across different data-team structures. Data_Teams_Literature_Review(1)
+Therefore, throughout this presentation we distinguish:
+FACT — directly supported by a source.
+INTERPRETATION — synthesis across sources.
+INFERENCE — reasonable conclusion, but not directly tested.
+That distinction is important for an MSc literature study.
+STUDENT 1
+BUILDING THE FIRST DATA TEAM
+Slide 4 — “Data Team” Is Not One Thing
+On slide
+What problem are we actually solving?
+Analytics
+What happened?
+
+Data Science
+What should we predict / test?
+
+Data Engineering
+Can the data reliably exist?
+
+ML Engineering
+Can models operate in production?
+
+Governance
+Who owns and trusts the data?
+
+Key idea
+A “data team” is a collection of capabilities, not a fixed list of job titles.
+
+Speaker notes
+One common mistake is to start organizational design with job titles.
+For example:
+“We need a data scientist.”
+
+But why?
+What problem is that person solving?
+The literature and practitioner sources suggest that data work is heterogeneous.
+A company may need analytics before machine learning.
+It may need reliable pipelines before hiring additional data scientists.
+It may need business-facing analytical capability rather than another technical specialist.
+So our first question should be:
+What capability is missing?
+
+Not:
+Which fashionable role should we hire?
+
+Evidence classification: INTERPRETATION — Moderate.
+Slide 5 — Start With the Business Problem
+On slide
+Wrong starting point
+“We need AI.”
+↓
+Hire ML engineer
+↓
+Build model
+↓
+Search for use case
+Better starting point
+Business problem
+↓
+Decision / workflow affected
+↓
+Required data capability
+↓
+Team capability
+↓
+Technology
+Speaker notes
+This is an important organizational design principle.
+Suppose the business says:
+“Our competitors use AI. We need an ML team.”
+
+That is not yet a sufficiently defined problem.
+Instead ask:
+- Which business decision should improve?
+- What is currently preventing that?
+- Is data available?
+- Is the problem analytical, predictive, operational, or organizational?
+- Who owns the decision?
+Only after answering those questions should we determine what capability is required.
+This is consistent with the broader evidence in the dossier around problem-first approaches, although the specific recommendation is better understood as a literature synthesis rather than a directly tested law.
+Classification: INTERPRETATION — Moderate.
+Slide 6 — When Does a Company Need a Dedicated Data Team?
+On slide
+Three signals
+1. Demand
+Multiple teams repeatedly need data work.
+2. Complexity
+Data pipelines, models, governance or experimentation become difficult to manage locally.
+3. Coordination
+Informal ownership starts producing:
+- duplicated work
+- inconsistent metrics
+- unreliable pipelines
+- unclear accountability
+Decision
+Create organizational capacity when coordination costs exceed the cost of formalizing it.
+
+Speaker notes
+We should avoid saying:
+“Every company needs a data team.”
+
+That is not supported.
+A small company with a few simple reporting needs might reasonably have analysts within business teams.
+A dedicated team becomes more compelling when data work is recurring, technically complex, cross-functional, or difficult to coordinate.
+Notice that company size itself is not the decision rule.
+A 50-person company with complex ML infrastructure might need specialized data capabilities.
+A 500-person company with relatively simple analytical requirements may organize differently.
+This is a contingency argument.
+Slide 7 — What Capabilities Does the First Team Need?
+On slide
+First-team capability map
+Capability	Question
+Analytics	Can we support decisions?
+Data engineering	Can we produce reliable data?
+Data science	Is prediction/experimentation valuable?
+Business understanding	Are we solving the right problem?
+Production	Can analytical/ML work operate reliably?
+Governance	Can people trust and use the data?
+
+
+Do not automatically hire:
+❌ “One of every role”
+Speaker notes
+The first team should usually be general enough to understand the whole data value chain.
+This does not mean one person must perform every technical task.
+It means the organization should ask whether the required capabilities are covered.
+Anderson's book is useful here because it approaches data teams from a management perspective and emphasizes organizing data-focused work rather than simply collecting job titles.
+But we must be academically careful:
+Anderson is practitioner literature, not controlled empirical evidence.
+So we use it as a management framework, not as proof that a particular staffing configuration produces superior outcomes.
+Slide 8 — Anderson vs. Bernhardsson
+On slide
+Anderson (2020)	Bernhardsson (2021)
+Management model	Practitioner narrative
+Focus on data-team organization	Focus on building a team
+Roles + management	Practical organizational choices
+Broad framework	Specific startup experience
+Generalizable concepts	Context-dependent lessons
+
+
+Shared insight
+Organize around how data work actually gets done.
+
+Speaker notes
+This is where the assigned literature becomes central rather than decorative.
+Anderson gives us a broader management model.
+Bernhardsson gives us a practical story from a mid-stage startup.
+One particularly useful idea from Bernhardsson is separating:
+who manages the data professional
+from
+who determines the person's daily priorities.
+The article proposes centralized reporting for hiring, standards and career development while keeping work management closer to the teams being supported. The dossier identifies this as a useful distinction between reporting structure and work allocation. Data_Teams_Literature_Review(1)
+That becomes very important when we discuss hybrid structures.
+Slide 9 — Northstar: Choose the First Two Hires
+On slide
+Northstar has budget for 2 hires
+Current state:
+- 4 analysts
+- 1 DS
+- 3 engineers part-time
+- Poor data quality
+- Growing ML requests
+Your decision
+Hire:
+A. 2 Data Scientists
+B. 2 Data Engineers
+C. 1 Data Engineer + 1 Analytics/Data Scientist
+D. Something else
+More important:
+What assumption makes your choice defensible?
+
+Activity — 7 minutes
+Speaker notes
+Do not immediately reveal an answer.
+Ask students to discuss:
+1. What is Northstar's binding constraint?
+2. What capability is missing?
+3. What should stop being done part-time?
+4. What should the existing data scientist do?
+5. What would you measure after six months?
+The purpose is to demonstrate that organizational design begins with diagnosis.
+There is no single universally correct answer.
+A reasonable answer might prioritize data engineering because three software engineers are handling pipelines part-time and data quality is already poor.
+But another group could argue for analytics capacity if decision demand is overwhelming.
+The important thing is whether they can defend the choice.
+Slide 10 — From “Who Should We Hire?” to “How Should We Organize?”
+On slide
+Student 1's conclusion
+A first data team should answer:
+What problem?
+↓
+What capability?
+↓
+What ownership?
+↓
+What people?
+But then another problem appears:
+What happens when one team becomes several?
+
+Transition
+Student 2: Structure and growth
+Speaker notes
+We have now solved the first organizational problem:
+creating enough data capability to generate value.
+
+But successful teams create another problem.
+Demand grows.
+More teams need data.
+More datasets appear.
+More people join.
+More dependencies emerge.
+At that point the question becomes:
+Should everyone remain in one central data team?
+
+That brings us to organizational structure.
+STUDENT 2
+STRUCTURE AND GROWTH
+Slide 11 — The Organizational Design Problem
+On slide
+Centralization solves some problems…
+Consistency
+Career management
+Shared expertise
+Governance
+…but can create others
+Distance from users
+Central bottlenecks
+Reactive requests
+Weak domain context
+The opposite is also true.
+Speaker notes
+This is the central trade-off.
+Centralization can make standards and career development easier.
+But the central team may become a service desk.
+Embedded teams can understand business problems deeply.
+But duplication and inconsistent practices can emerge.
+The literature therefore supports the existence of trade-offs much more strongly than it supports one winning structure.
+The dossier explicitly summarizes the evidence as moderate for a trade-off between business proximity and technical/governance consistency, but insufficient for claiming one structure is universally superior. Data_Teams_Literature_Review(1)
+Slide 12 — Three Basic Structures
+On slide
+1. Centralized
+Data team
+↓
+Business A
+Business B
+Business C
+2. Embedded
+Business A → Data person
+Business B → Data person
+Business C → Data person
+3. Hybrid
+Data leadership / platform
+↙ ↓ ↘
+Product A Product B Product C
+Speaker notes
+These are simplified models.
+Real organizations often combine elements of all three.
+Centralized means people primarily sit and operate within one data organization.
+Embedded means data professionals work directly inside business/product teams.
+Hybrid means some organizational elements remain centralized while people work closely with domains.
+And this leads to a very useful distinction:
+Where someone reports is not necessarily where their work is prioritized.
+
+Slide 13 — Centralized: What You Gain / What You Risk
+On slide
+CENTRALIZED
+Gains
+✓ Shared standards
+✓ Career development
+✓ Common tooling
+✓ Easier resource movement
+✓ Strong professional community
+Risks
+⚠ Service-desk mentality
+⚠ Business distance
+⚠ Central bottleneck
+⚠ Reactive priorities
+Best question
+Can the central team stay close enough to the business?
+
+Evidence
+Trade-off: Moderate
+Speaker notes
+Bernhardsson's model is useful here.
+A centralized reporting structure does not necessarily mean a centralized backlog.
+That is an important conceptual distinction.
+A team could have centralized management but decentralized prioritization.
+This gives us more flexibility than a simple binary:
+centralized versus decentralized.
+
+Slide 14 — Embedded: What You Gain / What You Risk
+On slide
+EMBEDDED
+Gains
+✓ Domain knowledge
+✓ Faster feedback
+✓ Product proximity
+✓ Clear local ownership
+Risks
+⚠ Duplicate pipelines
+⚠ Inconsistent definitions
+⚠ Different standards
+⚠ Career fragmentation
+⚠ Difficult cross-domain coordination
+Best question
+Can domains remain locally autonomous without creating organizational fragmentation?
+
+Speaker notes
+The advantage is proximity.
+A data scientist working directly with a product team may understand the product context much better.
+But if every product team builds its own data definitions, pipelines and tools, the organization can lose consistency.
+This is why organizational design cannot be separated from:
+- governance
+- platforms
+- standards
+- ownership
+- interfaces between teams.
+Slide 15 — Hybrid: Separate Management From Daily Work
+On slide
+HYBRID / HUB-AND-SPOKE
+Central data leadership
+- hiring
+- career development
+- standards
+- community
+- platform/governance
+↓
+Embedded with product/business teams
+- daily priorities
+- domain context
+- experimentation
+- decision support
+Key insight
+Centralized management ≠ centralized work
+
+Speaker notes
+This is one of the most useful ideas to take from Bernhardsson.
+Imagine a data scientist working with the growth team.
+Their manager may remain within the data organization.
+But the growth team may determine the scientist's day-to-day priorities.
+This preserves a professional home while maintaining business proximity.
+The dossier explicitly identifies this separation as a key distinction often blurred in centralized-versus-embedded debates. Data_Teams_Literature_Review(1)
+Slide 16 — What Changes as the Company Grows?
+On slide
+Growth creates new coordination problems
+Small
+Few teams
+Few dependencies
+↓
+Growing
+More domains
+More datasets
+More requests
+↓
+Large
+Cross-domain dependencies
+Platform needs
+Governance
+Ownership
+Therefore:
+Growth does not automatically require a specific structure.
+
+Growth changes the coordination problem.
+
+Speaker notes
+This is an important correction to simplistic maturity models.
+You will often hear:
+“Start centralized, then move hybrid, then implement Data Mesh.”
+
+We should be careful.
+That can be a useful hypothesis, but it is not a universal empirical law.
+The literature review found cases where organizations changed structure as complexity increased, but this does not prove that every organization should follow the same sequence. Data_Teams_Literature_Review(1)
+Slide 17 — Why Does Structure Change?
+On slide
+Four triggers
+1. Demand
+Too many requests for one team.
+2. Boundaries
+Too many handoffs.
+3. Duplication
+Multiple teams solve the same infrastructure/data problem.
+4. Ownership
+Nobody clearly owns important datasets or decisions.
+Organizational redesign should answer:
+Which coordination problem are we trying to remove?
+
+Speaker notes
+This is where organizational theory becomes useful.
+We don't need a separate 15-minute lecture on Conway's Law.
+The practical lesson is enough:
+Team boundaries affect communication and system boundaries.
+Similarly, Team Topologies gives us useful language around platforms and enabling teams.
+But these frameworks should be presented as supporting concepts, not as empirical proof specifically about data-team structures.
+Slide 18 — Conway, Platforms and Data Mesh
+On slide
+Three ideas — one organizational question
+Conway's Law
+Team communication patterns influence system design.
+
+Platform teams
+Reduce repeated technical work through reusable capabilities.
+
+Data Mesh
+Push data ownership toward domains while establishing shared governance and platform capabilities.
+
+Common question
+Who owns the work — and how do teams coordinate?
+
+Speaker notes
+These concepts are often presented as separate buzzwords.
+But for this presentation, they answer one common question:
+How do we manage increasing organizational boundaries?
+
+Data Mesh is especially important to discuss carefully.
+The dossier reports empirical work showing that organizations implementing federated governance can experience difficulties during the transition. Data_Teams_Literature_Review(1)
+Therefore:
+Data Mesh is not the inevitable destination of every mature data organization.
+It is one possible response to a particular coordination and ownership problem.
+Slide 19 — Northstar at 500 Employees
+On slide
+Northstar has doubled + diversified
+Now:
+- 6 product domains
+- 15 analysts
+- 8 data scientists
+- 12 data engineers
+- duplicated pipelines
+- inconsistent customer metrics
+- repeated platform work
+Choose a design
+A. Stay centralized
+B. Fully embed
+C. Hybrid + platform
+D. Federated / Data Mesh
+Your justification must identify:
+The coordination problem your structure solves
+Activity — 8–10 minutes
+Speaker notes
+This activity is deliberately harder than Activity 1.
+The students should now recognize that the problem has changed.
+Northstar's issue is no longer simply:
+“We need more data people.”
+
+It is now:
+“How do we prevent six domains from repeatedly solving the same problems while preserving domain proximity?”
+
+A defensible answer is likely hybrid + platform, but again, do not say it is universally correct.
+Ask:
+- What remains central?
+- What becomes domain-owned?
+- Who owns metrics?
+- Who owns pipelines?
+- What should the platform provide?
+- What should product teams be allowed to decide independently?
+Slide 20 — Student 2 → Student 3
+On slide
+We now have a hypothesis
+As organizations grow, coordination mechanisms become increasingly important.
+
+But…
+Does real-world evidence support this?
+And more importantly:
+Can we say that a particular structure caused better outcomes?
+
+Speaker notes
+We have developed a design logic.
+But we should now challenge ourselves.
+A good literature study should not stop at:
+“This framework makes sense.”
+
+We need to ask:
+What actually happened in organizations?
+
+And:
+What can we legitimately learn from those cases?
+
+That is the role of Student 3.
+STUDENT 3
+REAL CASES, FAILURE MODES AND EVIDENCE
+Slide 21 — Case 1: Airbnb
+On slide
+AIRBNB
+Starting point
+Centralized data organization
+↓
+Problem
+Rapid growth → team became reactive
+↓
+Change
+Centralized → hybrid / embedded
+↓
+What remained central?
+- careers
+- standards
+- governance
+- platforms
+- metrics
+Lesson
+Business proximity increased without eliminating central coordination.
+
+Evidence strength
+Moderate — company-authored case
+Speaker notes
+Airbnb is one of our strongest examples because the company explicitly documented its organizational evolution.
+According to the dossier, Airbnb began with a centralized model.
+As the company expanded, the centralized team became viewed as a resource and work became reactive.
+Airbnb subsequently moved toward a hybrid centralized/embedded arrangement.
+Later, data engineering pods were placed within product teams while a central data engineering organization retained standards and tooling responsibilities. Data_Teams_Literature_Review(1)
+But we must make one critical qualification:
+This is a company-reported organizational history.
+It does not prove that hybrid organization caused Airbnb's performance.
+Slide 22 — Case 2: Microsoft Experimentation
+On slide
+MICROSOFT EXPERIMENTATION
+Fabijan et al. (2017)
+Evolution
+Crawl
+Standalone data scientists
+↓
+Walk
+Embedded data scientists + central platform
+↓
+Run
+Data scientists employed directly in product teams
+↓
+Fly
+Product teams experiment autonomously
+Central team → platform + review when needed
+Evidence
+Peer-reviewed case study
+Limitation
+Experimentation ≠ all data work
+
+Speaker notes
+This is academically stronger than a company blog because the case was studied and published through a peer-reviewed software engineering venue.
+The model describes four stages of experimentation capability and corresponding organizational changes.
+The important point is not:
+“Every data team should follow these four stages.”
+
+The more defensible interpretation is:
+Organizational design can change as the organization develops experimentation capability.
+
+The limitation is equally important:
+This is specifically about experimentation, not every form of data work.
+The dossier explicitly describes it as a peer-reviewed descriptive model rather than a universal law. Data_Teams_Literature_Review(1)
+Slide 23 — Case 3: Booking.com
+On slide
+BOOKING.COM
+Context
+Large-scale experimentation + ML
+↓
+Organizational characteristic
+ML developed across many interdisciplinary teams
+↓
+Working principle
+Product problem → hypothesis → experiment → learning
+↓
+Lesson
+Technical ML capability alone is not enough.
+
+Important limitation
+Successful ML ≠ proof that decentralized organization is universally better
+Speaker notes
+Booking.com provides an interesting counterpoint.
+The dossier cites Bernardi et al. describing ML applications developed across dozens of customer-facing applications and emphasizing hypothesis-driven iteration and interdisciplinary integration.
+The important lesson is not simply:
+“Booking.com uses decentralized teams.”
+
+The stronger lesson is:
+ML impact depends on its integration with product decisions and experimentation.
+
+Again, this does not prove that decentralization itself caused the outcomes.
+That distinction is exactly what makes the case academically useful.
+Slide 24 — What Goes Wrong?
+On slide
+Common failure modes
+1. Technology before problem
+“Let's build an AI platform.”
+2. No clear ownership
+Everyone uses the data. Nobody owns it.
+3. Central bottleneck
+Every request goes through one team.
+4. Fragmentation
+Every domain builds its own solution.
+5. Data science disconnected from production
+Models exist but do not create operational value.
+6. Activity ≠ outcome
+More dashboards ≠ better decisions.
+Speaker notes
+These are synthesis points rather than a claim that every failure occurs everywhere.
+The literature dossier contains a much broader failure-mode analysis, including tool-first transformation, unrealistic AI expectations, copying another company's model, unclear responsibilities, and weak data foundations.
+One especially important lesson is:
+Copying another company's organizational model without understanding context can create organizational churn.
+
+The dossier specifically warns that famous organizational models can be snapshots rather than universally implemented structures. Data_Teams_Literature_Review(1)
+Slide 25 — What the Cases Do NOT Prove
+On slide
+Case evidence ≠ causal evidence
+Airbnb improved / changed its organization.
+Does this prove hybrid is best?
+❌ No.
+Microsoft evolved experimentation organization.
+Does this prove maturity always follows the same path?
+❌ No.
+Booking.com achieved ML impact with interdisciplinary teams.
+Does this prove decentralization causes ML success?
+❌ No.
+Why?
+Selection bias
+Self-reported outcomes
+Different contexts
+Changing organizations
+No controlled comparison
+Speaker notes
+This slide is essential for the academic quality of the presentation.
+We selected companies that published information about their organizations.
+That creates selection bias.
+They are often successful technology companies.
+Their outcomes are often self-reported.
+And the organizational structure is only one variable among many.
+Therefore:
+Cases generate hypotheses; they do not automatically establish causality.
+
+The dossier explicitly identifies this limitation: company cases are affected by selection bias, outcomes may be self-reported, and none establishes causality between structure and performance. Data_Teams_Literature_Review(1)
+Slide 26 — Evidence Court
+On slide
+Which claims can we defend?
+Statement	Verdict
+Every company needs a data team	❌ Unsupported
+Data work becomes harder as boundaries multiply	🟢 Supported / moderate
+Centralization is always better	❌ Unsupported
+Hybrid is usually the best structure	🟡 Plausible, not established
+Data Mesh is the destination for mature teams	❌ Unsupported
+Structure should respond to coordination problems	🟢 Reasonable synthesis
+There is one correct staffing ratio	❌ Unsupported
+
+
+Activity — 7 minutes
+Speaker notes
+This is the evidence-literacy exercise.
+Give groups different claims and ask them to classify them as:
+Supported
+Partially supported
+Interpretation
+Unsupported
+Then ask:
+“What evidence would you need to upgrade this claim?”
+
+This moves the presentation beyond organizational theory into research methodology.
+Slide 27 — The Data-Team Design Loop
+On slide
+A practical synthesis
+1. BUSINESS PROBLEM
+↓
+2. REQUIRED CAPABILITY
+↓
+3. ORGANIZATIONAL CONSTRAINT
+↓
+4. STRUCTURE
+↓
+5. COORDINATION MECHANISM
+↓
+6. OUTCOME
+↓
+7. REASSESS
+Key principle
+Design the organization around the problem — then redesign when the problem changes.
+
+Speaker notes
+This is our final synthesis.
+Importantly, this is not a framework directly proven by one study.
+It is our reasoned synthesis from the literature.
+We begin with the business problem.
+Then identify the capability.
+Then identify the organizational constraint.
+Only then choose a structure.
+And the structure is incomplete without coordination mechanisms.
+For example, if teams become embedded, we may need:
+- common standards
+- platforms
+- data ownership
+- governance
+- communities of practice
+- interfaces between teams.
+Finally:
+Did the organizational change actually improve the problem we were trying to solve?
+
+If not, redesign.
+Slide 28 — What We Know — And What We Don't Know
+On slide
+WHAT WE KNOW
+✓ Data work is heterogeneous.
+✓ Business proximity and organizational consistency involve trade-offs.
+✓ Boundaries create coordination problems.
+✓ Ownership and data quality matter.
+✓ Organizations can and do change their structures.
+✓ Platforms can reduce repeated technical work.
+WHAT WE DON'T KNOW
+? Which structure is universally optimal.
+? Whether hybrid consistently produces better outcomes.
+? Universal staffing ratios.
+? Whether Data Mesh improves business outcomes across contexts.
+? A universal organizational maturity sequence.
+Speaker notes
+This is where I would slow down.
+A strong MSc presentation does not need to pretend that the literature knows more than it does.
+In fact, recognizing the evidence gap is one of the strongest conclusions available.
+The dossier explicitly identifies comparative organizational research as a major research gap, including the need for longitudinal and multi-case studies. Data_Teams_Literature_Review(1)
+Slide 29 — Final Answer to the Northstar Problem
+On slide
+So… what should Northstar do?
+At 200 employees
+Prioritize:
+Reliable data foundations + analytical capability
+↓
+Clarify:
+Data ownership + business priorities
+↓
+As Northstar grows
+Move toward:
+Business-aligned teams
+-
+Central platforms / standards / governance
+↓
+Reassess continuously
+The right structure is the one that addresses the organization's current binding constraint.
+
+Speaker notes
+We can now return to the fictional company.
+At 200 people, we might prioritize reliable foundations and clear analytical ownership.
+At 500 people, the coordination problem may become more important.
+That may justify embedded capabilities supported by central platform and governance functions.
+But this is not:
+“200 people = centralized; 500 = hybrid.”
+
+Instead:
+“The coordination problem changed, therefore the organizational design may need to change.”
+
+That distinction is critical.
+Slide 30 — Final Takeaway
+On slide
+Don't ask:
+“What is the best data-team structure?”
+
+Ask:
+“What organizational problem are we trying to solve?”
+
+Then:
+Problem → Capability → Structure → Coordination → Outcome → Reassess
+Final statement
+Good data-team design is less about finding the perfect structure and more about recognizing which organizational problem the current structure is creating.
+
+Speaker notes
+This is the final message I would leave with the class.
+The literature does not give us one universal blueprint.
+What it gives us is a set of useful concepts for reasoning about:
+- capabilities
+- business proximity
+- technical consistency
+- ownership
+- coordination
+- platforms
+- governance
+- organizational change.
+And the biggest research gap is precisely the question managers often want answered:
+Which structure actually produces better outcomes?
+
+We currently do not have strong enough comparative evidence to answer that universally.
